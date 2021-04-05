@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Loops</title>
+</head>
+<body>
+    User Number: <span></span>
+
+    <script>
+        // let i = 0;
+        // while(i < 10) {
+        //     console.log(i)
+        //     i++;
+        // }
+        
+        let num = 0;
+
+        num = Number(prompt('Enter a number: '));
+        while(num < 5 ) {
+            num = Number(prompt('Enter a bigger number: '));
+        }
+
+        document.querySelector('span').innerHTML = num;
+
+    </script>
+</body>
+</html>
